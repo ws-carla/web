@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>ICLP 2025 - Workshop on Cognitive Architectures for Robotics: LLMs and Logic in Action (CARLA)</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+  
+  <!-- Custom CSS for Schedule Table -->
+  <style>
+    .schedule-table {
+      width: 100%;
+      border-collapse: collapse;
+      background: #fff;
+      font-family: Arial, sans-serif;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      margin: 20px 0;
+    }
+    .schedule-table th,
+    .schedule-table td {
+      padding: 12px 15px;
+      border-bottom: 1px solid #ccc;
+      text-align: left;
+    }
+    .schedule-table th {
+      background-color: #f7f7f7;
+      font-weight: bold;
+    }
+    .schedule-table tbody tr:nth-child(even) {
+      background-color: #f9f9f9;
+    }
+    .schedule-table tbody tr:hover {
+      background-color: #f1f1f1;
+    }
+    /* 响应式设计 */
+    @media (max-width: 768px) {
+      .schedule-table th,
+      .schedule-table td {
+        padding: 10px;
+      }
+    }
+  </style>
+  <!-- =======================================================
+  * Template Name: TheEvent
+  * Updated: Sep 18 2023 with Bootstrap v5.3.2
+  * Template URL: https://bootstrapmade.com/theevent-conference-event-bootstrap-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="d-flex align-items-center ">
+    <div class="container-fluid container-xxl d-flex align-items-center">
+
+      <div id="logo" class="me-auto">
+        <!-- Uncomment below if you prefer to use a text logo -->
+        <!-- <h1><a href="index.html">The<span>Event</span></a></h1>-->
+        <a href="index.html" class="scrollto"><img src="assets/img/logo.png" alt="" title=""></a>
+      </div>
+
+      <nav id="navbar" class="navbar order-last order-lg-0">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+          <li><a class="nav-link scrollto" href="#about">About</a></li>
+          <li><a class="nav-link scrollto" href="#schedule">Schedule</a></li>
+          <li><a class="nav-link scrollto" href="#topic">Topics</a></li>
+          <li><a class="nav-link scrollto" href="#cfp">Call for Papers</a></li>
+          <li><a class="nav-link scrollto" href="#speakers">Speakers</a></li>
+          <li><a class="nav-link scrollto" href="#organizers">Organizers</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav>
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero">
+    <div class="hero-container" data-aos="zoom-in" data-aos-delay="200">
+      <h1 class="mb-4 pb-0" style="text-transform: none;">
+        C.A.R.L.A.
+        <br>        
+        <span style="font-size: 0.8em; color: #fff;"> 1st Workshop on <u>C</u>ognitive <u>A</u>rchitectures for <u>R</u>obotics: LLMs and <u>L</u>ogic in <u>A</u>ction</span>        
+        <br>
+        <span style="font-size: 0.5em; color: #fff;"> ICLP 2025, September 12-13, 2025, Rende, Italy</span>
+      </h1>
+      <!-- <div class="social-links" style="margin-top: 25px;">
+        <a href="https://x.com/ZhiyuanCS/status/1866401974792691742" target="_blank" rel="noopener noreferrer" style="margin-right: 15px; text-decoration: none; color: #1DA1F2;">
+          Twitter
+        </a>
+        <a href="https://openreview.net/group?id=ICLR.cc/2025/Workshop/LLM_Reason_and_Plan&referrer=%5BHomepage%5D(%2F)#tab-your-consoles" target="_blank" rel="noopener noreferrer" style="text-decoration: none; color: #1DA1F2;">
+          OpenReview
+        </a>
+      </div> -->
+    </div>
+  </section>
+  <!-- End Hero Section -->
+
+  <main id="main">
+
+    <!-- ======= About Section ======= -->
+    <section id="about">
+      <div class="container position-relative" data-aos="fade-up">
+        <div class="row">
+          <div class="col-lg-12">
+            <h2>About The Workshop</h2>
+            <p style="font-size: 18px;">
+              The 1st Workshop on Cognitive Architectures for Robotics: LLMs and Logic in Action (CARLA) seeks to transform the landscape of intelligent robotics by pioneering the integration of large language models (LLMs), symbolic reasoning, and logic solvers into robotic systems. As robotics moves towards real-world applications requiring adaptability, safety, and complex decision-making, this workshop focuses on harnessing the synergy between data-driven learning models and symbolic logic-based systems to advance automation.
+              <br>
+              CARLA highlights the complementary roles of LLMs and traditional symbolic solvers in advancing robotic reasoning and control. While LLMs serve as cognitive engines, excelling in processing natural language and enabling dynamic adaptation to changing environments, their statistical nature makes them less suitable for precise logical inferences and planning. For these tasks, traditional symbolic solvers offer a robust and reliable foundation. By integrating the strengths of LLMs with the precision of symbolic reasoning and planning, this workshop aims to foster the development of intelligent, reliable, and explainable robotic systems capable of seamless interaction with humans and their surroundings.
+
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End About Section -->
+
+    <!-- ======= Schedule Section ======= -->
+    <section id="schedule" style="padding-top: 20px;">
+      <div class="container" data-aos="fade-up">
+        <div class="section-header">
+          <h2>Schedule</h2>
+        </div>
+        <div class="table-responsive row mb-4 justify-content-center">
+          <div class="col-12">
+            <table class="schedule-table table align-middle">
+              <thead>
+                <!-- <tr>
+                  <th>Time (SGT)</th>
+                  <th>Session</th>
+                  <th>Speaker</th>
+                  <th>Talk Title</th>
+                  <th>Host</th>
+                </tr> -->
+              </thead>
+              <tbody>
+                <!-- 非 contributed talk 部分 -->
+                <tr>
+                  <td>15:00 – 15:10</td>
+                  <td><b>Introduction and Opening Remarks</b></td>
+                </tr>
+                <tr>
+                  <td>15:10 – 15:50</td>
+                  <td><b>Invited Talk</b> <br> <b>Professor Mauro Vallati</b></td>
+                </tr>     
+                </tr>
+                <tr>
+                  <td>15:50 – 16:10</td>
+                  <td><b>Paper Presentation</b> <br> <b>Iterative ASP Pipelines: Enhancements for Robots Playing Mobile Games</b>
+                  <br>
+                  Denise Angilica, Tayyab Ateeq, Giovambattista Ianni
+                  </td>
+                </tr>       
+                <tr>
+                  <td>15:10 – 16:30</td>
+                  <td><b>Paper Presentation</b> <br> <b>When Prolog meets generative models: a new approach for managing knowledge and planning in robotic applications </b>
+                  <br>
+                  Enrico Saccon, Ahmet Tikna, Davide De Martini, Edoardo Lamon, Luigi Palopoli, Marco Roveri 
+                  </td>
+                </tr>    
+              </tbody>
+            </table>
+        </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Schedule Section -->
+
+    <!-- ======= Topics Section ======= -->
+    <section id="topic" class="section-with-bg">
+      <br>
+      <br>
+      <div class="container" data-aos="fade-up">
+        <div class="section-header">
+          <h2>Topics</h2>
+          <p>The workshop will cover a range of topics, including but not limited to:
+          </p>
+        </div>
+        <section id="topics">
+          <div class="container">
+            <!-- Topic 1 -->
+            <div class="row mb-4">
+              <div class="col-12">
+
+                <div class="topic-panel interactive-panel p-4 border shadow-sm rounded" style="background: #ffffff;">
+                  <b style="font-size: 18px; color: #343a40;">CARLA invites groundbreaking research contributions and discussions in the following focus areas:
+                  </b>
+                  <ul style="color: #6c757d;">
+                    <li><strong>Knowledge Representation for Robotics</strong>:<br>
+                      <span style="display:inline-block; width:2em;"></span>
+                      Frameworks and methodologies for integrating structured knowledge into robotic architectures.</li>
+                    <li><strong>LLMs as Cognitive Engines</strong>:<br>
+                      <span style="display:inline-block; width:2em;"></span>
+                      Leveraging LLMs to process complex commands, generate actionable insights, and facilitate human-robot communication.</li>
+                    <li><strong>Neuro-Symbolic Systems in Robotics</strong>:<br>
+                      <span style="display:inline-block; width:2em;"></span>
+                      Hybrid approaches combining neural networks with symbolic reasoning for decision-making and task execution.</li>
+                    <li><strong>Logic Solvers in Robotic Control</strong>:<br>
+                      <span style="display:inline-block; width:2em;"></span>
+                      Employing constraint solvers, SAT solvers, or theorem provers for autonomous planning and reliable decision-making.</li>
+                    <li><strong>Adaptive and Safe Robotic Architectures</strong>:<br>
+                      <span style="display:inline-block; width:2em;"></span>
+                      Strategies for real-time adaptation and coordination in robotic systems using LLMs and symbolic logic.</li>
+                    <li><strong>Human-Robot Collaboration</strong>:<br>
+                      <span style="display:inline-block; width:2em;"></span>
+                      Innovations in language-driven interactions, focusing on usability, interpretability, and reliability in diverse scenarios.</li>
+                    <li><strong>Challenges of LLM Deployment in Robotics</strong>:<br>
+                      <span style="display:inline-block; width:2em;"></span>
+                      Addressing safety, robustness, and ethical considerations when integrating LLMs into robotic systems.</li>
+                    <li><strong>LLM-Driven Planning and Problem Solving</strong>:<br>
+                      <span style="display:inline-block; width:2em;"></span>
+                      Enabling robots to perform dynamic planning and adapt to novel situations using LLM-guided reasoning.</li>
+                    <li><strong>Agentic AI in Robotics</strong>:<br>
+                      <span style="display:inline-block; width:2em;"></span>
+                      Designing interaction frameworks for autonomous goal-directed agents through the integration of LLMs with logic control.</li>
+                  </ul>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <br>
+      <br>
+    </section>
+    <!-- End Topics Section -->
+
+    <section id="cfp">
+      <div class="container" data-aos="fade-up">
+        <div class="section-header">
+          <h2>Call For Papers</h2>
+        </div>
+        <p>
+          <h3>Categories</h3>
+
+          <ul>
+            <li>Original Research Papers: Presenting novel research contributions aligned with the workshop's focus areas.</li>
+            <li>Work-in-Progress Reports: Sharing preliminary findings and ongoing research efforts.</li>
+            <li>Position Papers: Discussing emerging challenges, visionary ideas, and future directions at the intersection of robotics, LLMs, and logic solvers.</li>
+            <li>Already Presented Works: Contributions that have been previously presented at other venues but are relevant to the workshop themes. Such works can be resubmitted to foster further discussion and exploration.</li>
+          </ul>
+        </p>
+        <h3>Important Dates</h3>
+        <ul class="fa-ul">
+          <li>
+            <span class="fa-li"><i class="fa fa-check"></i></span>
+            <b>Paper Submission Deadline</b>: <del sty>June 1, 2025 (AOE)</del> <b style="color: red;">June 15, 2025 (Extended)</b></li>
+          <li><span class="fa-li"><i class="fa fa-check"></i></span><b>Notification</b>: July 13, 2025 (AOE)</li>
+          <li><span class="fa-li"><i class="fa fa-check"></i></span><b>Camera-ready</b>: July 27, 2025 (AOE)</li>
+        </ul>
+        Deadlines are strict and will not be extended under any circumstances. All deadlines follow the <a href="https://time.is/Anywhere_on_Earth">Anywhere on Earth (AoE)</a> timezone.
+        <br>
+        <br>
+        <p>Accepted papers will be presented as posters, with a subset selected for oral presentations. The workshop will take place in person at ICLP 2025, with virtual participation options to be confirmed.</p>
+        <br>        
+        
+        <h3>Submission Guidelines</h3>
+        <h5>Formatting Requirements</h5>
+
+        <!-- Submissions must be in English and follow the CEURART style: <a href="https://ceur-ws.org/" target="_blank">CEURART Paper Style.</a> -->
+
+        <!-- <br> -->
+        <!-- Papers must be submitted as a <b>single PDF file</b>:   -->
+        <ul class="fa-ul">
+          <li><span class="fa-li"><i class="fa fa-check"></i></span>Formatting must follow the <a href="https://ceur-ws.org/HOWTOSUBMIT.html" target="_blank">CEURART style</a>.</li>
+          <li><span class="fa-li"><i class="fa fa-check"></i></span>Maximum of 12 pages (including supplemental materials, excluding references) for full papers and 6 pages (including supplemental materials, excluding references) for short papers.</li>
+          <li><span class="fa-li"><i class="fa fa-check"></i></span>Suggested format 9 pages for full papers and 4 pages for short papers.</li>
+          <li><span class="fa-li"><i class="fa fa-check"></i></span>Supplemental materials (e.g., code, data) are encouraged but not mandatory.</li>
+          <li><span class="fa-li"><i class="fa fa-check"></i></span>All submissions must be in English and submitted in PDF format.</li>
+        </ul>
+
+        <p><b>Submissions exceeding the page limit will be desk rejected.</b></p>
+        
+        <p>Accepted original contributions will be published in the CEUR-WS Proceedings (possibly in conjunction with other ICLP workshops). <br> Accepted non-original contributions will be showcased on the workshop website with links to the original publication, where available.</p>        
+
+        <h5>Submission Site</h5>
+        <p>
+          Submissions will be managed via Microsoft CMT. Papers will remain private during the review process. All authors must maintain up-to-date Microsoft CMT profiles to ensure proper conflict-of-interest management and paper matching. Incomplete profiles may result in desk rejection.  
+          <br>
+          <br>
+          Submit papers through the C.A.R.L.A. Submission Portal on Microsoft CMT (<a href="https://cmt3.research.microsoft.com/CARLA2025" target="_blank">C.A.R.L.A. Workshop Submission Portal</a>).
+        </p>
+
+        <h5>Anonymity</h5>
+        The workshop follows a <b>single-blind review process</b>. Submissions must not be anonymized by removing author names, affiliations, and acknowledgments.
+        <br>
+        <br>
+        <h5>Dual Submission and Non-Archival Policy</h5>
+        Submissions under review at other venues will be accepted, provided they do not breach any dual-submission or anonymity policies of those venues. Submissions will not be indexed or have archival proceedings.
+        <br>
+        <br>
+        <h5>Transparency</h5>
+        By submitting to the C.A.R.L.A. Workshop, authors agree that for all accepted papers, the original submission, reviews, and meta-reviews will be made publicly available on CMT.
+        <br>
+        <br>
+        <h5>Contact</h5>
+        Email at: carla.ws.info "at" gmail.com
+      </div>
+    </section>
+
+    <br>
+    <br>
+    <section id="accepted-paper">
+      <div class="container" data-aos="fade-up">
+        <div class="section-header">
+          <h2>Accepted Papers</h2>
+        </div>
+
+        <!-- Poster Presentations (dynamic load) -->
+        <div class="mb-3" style="border: 1px solid #ddd; border-radius: 5px;">
+          <div style="background-color: #e2eeff; padding: 10px; cursor: pointer; font-weight: 500; display: flex; justify-content: space-between; align-items: center;"
+            data-bs-toggle="collapse" data-bs-target="#poster-presentations" aria-expanded="true"
+            aria-controls="poster-presentations">
+            <span>Accepted Papers</span>
+            <i class="bi bi-chevron-up"></i>
+          </div>
+          <div class="collapse" id="poster-presentations">
+            <div style="padding: 15px;">
+              <!-- Here we place an empty <ul> that we'll fill using JavaScript -->
+              <ul id="posterList" style="margin-bottom: 0;"></ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <br>
+    <br>
+
+    <section id="speakers" class="section-with-bg">
+      <div class="container" data-aos="fade-up">
+        <div class="section-header">
+          <h2>Speakers and Panelists</h2>
+        </div>
+
+        <div class="row">
+          <div class="col-md-3 col-sm-6 col-2"></div>
+          <div class="col-md-6 col-sm-6 col-4">
+            <div class="speaker" data-aos="fade-up" data-aos-delay="200" style="text-align: center;">
+              <img src="assets/img/speakers/vallati.jpg" alt="Mauro Vallati" class="img-fluid">
+              <br><a href="https://www.mvallati.net/" style="font-size: 1.2em; color: #00356B;">Mauro Vallati</a></br>
+              <p>University of Huddersfield<br>
+                (Professor of Artificial Intelligence)</p>
+            </div>
+          </div> 
+          <!-- <div class="col-md-3 col-sm-6 col-4">
+            <div class="speaker" data-aos="fade-up" data-aos-delay="200" style="text-align: center;">
+              <img src="assets/img/speakers/valmeekam.jpg" alt="Karthik Valmeekam" class="img-fluid">
+              <br><a href="https://karthikv792.github.io/" style="font-size: 1.2em; color: #00356B;">Karthik Valmeekam</a></br>
+              <p>Arizona State University<br>
+                (PhD Student in Computer Science)</p>
+            </div>
+          </div>  -->
+          <div class="col-md-3 col-sm-6 col-2"></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="organizers">
+      <div class="container" data-aos="fade-up">
+        <div class="section-header">
+          <h2>Organizers</h2>
+          <p>This workshop is organized by</p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-3 col-md-3 col-sm-4 col-6"></div>
+          <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+            <div class="speaker" data-aos="fade-up" data-aos-delay="200" style="text-align: center;">
+              <img src="assets/img/organizers/fabrizio.jpg" alt="Fabrizio Lo Scudo" class="img-fluid">
+              <br><a href="#" style="font-size: 1.2em; color: #00356B;">Fabrizio Lo Scudo</a></br>
+              <p>UNICAL</p>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+            <div class="speaker" data-aos="fade-up" data-aos-delay="200" style="text-align: center;">
+              <img src="assets/img/organizers/sotirios.jpg" alt="Sotirios Batsakis" class="img-fluid">
+              <br><a href="https://scholar.google.com/citations?user=Z_QyWj4AAAAJ&hl=en" style="font-size: 1.2em; color: #00356B;">Sotirios Batsakis</a></br>
+              <p>HMU</p>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+            <div class="speaker" data-aos="fade-up" data-aos-delay="200" style="text-align: center;">
+              <img src="assets/img/organizers/borroto.jpg" alt="Manuel Borroto" class="img-fluid">
+              <br><a href="#" style="font-size: 1.2em; color: #00356B;">Manuel Alejandro Borroto Santana</a></br>
+              <p>UNICAL</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- <section id="sponser">
+      <div class="container" data-aos="fade-up">
+        <div class="section-header">
+          <h2>Sponsors</h2>
+          <p>We thank our sponsors for their generous support!</p>
+        </div>
+
+        <div class="row"> -->
+          <!-- <div class="col-lg-3 col-md-4 col-sm-6 col-8">
+            <div class="sponser" data-aos="fade-up" data-aos-delay="200" style="text-align: center;">
+              <img src="assets/img/sponsors/huawei.png" alt="Huawei" class="img-fluid">
+            </div>
+          </div> -->
+        <!-- </div>
+      </div>
+    </section> -->
+    <br>
+    <br>
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="container">
+      <div class="copyright">
+        <!-- &copy; Copyright <strong>TheEvent</strong>. All Rights Reserved -->
+      </div>
+      <div class="credits">
+        Template adopted from <a href="https://set-llm.github.io/">SeT LLM @ ICLR 2024</a>
+      </div>
+      <br>
+      <div>The Microsoft CMT service was used for managing the peer-reviewing process for this conference. This service was provided for free by Microsoft and they bore all expenses, including costs for Azure cloud services as well as for software development and support.</div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+  <!-- ======= Dynamic Loading Script ======= -->
+  <script>
+    // This example assumes accepted_paper.json is located in the same directory as your HTML file.
+    // Adjust the path as necessary.
+    fetch('accepted_paper.json')
+      .then(response => response.json())
+      .then(data => {
+        const posterList = document.getElementById('posterList');
+        
+        // In the snippet, the data in accepted_paper.json is an object with a "notes" array
+        // that holds the accepted papers
+        const notes = data.notes;  // e.g. data.notes = [{ content: {...}, ...}, ...]
+
+        notes.forEach(item => {
+          const title = item.content.title.value;
+          // Authors may be stored as an array in item.content.authors.value or a single string, depending on your JSON
+          // If it's an array, join them
+          const authorsVal = item.content.authors.value;
+          let authors = Array.isArray(authorsVal) ? authorsVal.join(", ") : authorsVal;
+
+          const li = document.createElement('li');
+          li.innerHTML = `
+            <b>${title}</b><br>
+            Authors: ${authors}
+          `;
+          posterList.appendChild(li);
+
+          // Add some spacing after each paper
+          const br = document.createElement('br');
+          posterList.appendChild(br);
+        });
+      })
+      .catch(error => {
+        console.error('Error loading accepted_paper.json:', error);
+      });
+  </script>
+
+
+
+</body>
+
+</html>
