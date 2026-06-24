@@ -1,5 +1,19 @@
 {
     "notes": [
+        {
+            "content": {
+                "title": {
+                    "value": "Logic-Based Multi-Robot Coordination in Digital Twins: A DALI2 + CoppeliaSim Case Study for Cooperative Search and Rescue"
+                },
+                "authors": {
+                    "value": [
+                        "Lorenzo De Lauretis",
+                        "Giovanni De Gasperis",
+                        "Stefania Costantini"
+                    ]
+                }
+            }
+        },
         
     ],
     "count": 0,
