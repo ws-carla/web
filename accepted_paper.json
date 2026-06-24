@@ -14,7 +14,63 @@
                 }
             }
         },
-        
+        {
+            "content": {
+                "title": {
+                    "value": "ASPembly: Neuro-Symbolic Robotic Assembly Planning with Answer Set Programming"
+                },
+                "authors": {
+                    "value": [
+                        "Mario Alviano",
+                        "Lorenzo Grillo",
+                        "Pierpaolo Sestito"
+                    ]
+                }
+            }
+        },
+        {
+            "content": {
+                "title": {
+                    "value": "CoSP-TL: Common Sense enhanced Planning under Temporal Logics constraints with LLMs"
+                },
+                "authors": {
+                    "value": [
+                        "Emanuele Musumeci",
+                        "Alessio Saladino",
+                        "Elena Umili",
+                        "Luca Iocchi",
+                        "Daniele Nardi"                        
+                    ]
+                }
+            }
+        },
+        {
+            "content": {
+                "title": {
+                    "value": "Collaborating with Ad Hoc Agents through Reasoning and Learning"
+                },
+                "authors": {
+                    "value": [
+                        "Hasra Dodampegama",
+                        "Mohan Sridharan"                      
+                    ]
+                }
+            }
+        },
+        {
+            "content": {
+                "title": {
+                    "value": "A Neuro-Symbolic Agent for Video Anomaly Detection"
+                },
+                "authors": {
+                    "value": [
+                        "Alessia Donata Camarda",
+                        "Giovambattista Ianni",
+                        "Angelo Laface"                      
+                    ]
+                }
+            }
+        }
     ],
     "count": 0,
     "fromCache": true
